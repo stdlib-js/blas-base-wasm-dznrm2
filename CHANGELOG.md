@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
 -   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - **feat:** add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 
 </details>
