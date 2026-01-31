@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-dznrm2/tags). For example,
+
+```javascript
 import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.0-esm/index.mjs';
 ```
 
@@ -277,7 +282,7 @@ The function has the following additional parameters:
 
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@esm/index.mjs';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@esm/index.mjs';
-import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.0-esm/index.mjs';
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@esm/index.mjs';
 
 // Specify a vector length:
 var N = 5;
