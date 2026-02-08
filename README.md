@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-wasm-dznrm2/tags). For example,
+
+```javascript
 import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.1-deno/mod.js';
 ```
 
@@ -272,7 +277,7 @@ The function has the following additional parameters:
 ```javascript
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.1-deno/mod.js';
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@deno/mod.js';
 
 // Specify a vector length:
 var N = 5;
