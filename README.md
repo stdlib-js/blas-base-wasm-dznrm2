@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@deno/mod.js';
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.1-deno/mod.js';
 ```
 
 #### dznrm2.main( N, x, strideX )
@@ -272,7 +272,7 @@ The function has the following additional parameters:
 ```javascript
 import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.js';
 import Complex128Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex128@deno/mod.js';
-import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@deno/mod.js';
+import dznrm2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-wasm-dznrm2@v0.1.1-deno/mod.js';
 
 // Specify a vector length:
 var N = 5;
